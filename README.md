@@ -1,6 +1,6 @@
 # Stock-Price-Movement-Prediction-using-News-Headlines
 
-Problem Statement : Prediction of Stock Price Movement based on top 25 News Headlines.
+Problem Statement : Prediction of Stock Price Movement based on top 25 News Headlines. 1 : Price moves upwards, 0 : Price moves downwards or remains same. Classification problem.
 
 Methadology used : NLP. Post Cleaning the news headlines for irrelevant non-characters and stopwords, it is converted into vectorized format using BAG OF WORDS model. Then this data is used to train RandomForest Classifier model and Bernoulli Naive Bias Model.
                    Bernoulli is selected out of all Naive Bias models because vectorized data contains only 0 and 1. 
